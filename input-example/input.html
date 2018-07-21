@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Input</title>
+	</head>
+	<body>
+		<h1>Various Types of Inputs</h1>
+		<form>
+			<fieldset>
+				<label>
+					Email:
+					<input type="email" name="email" placeholder="danica@test.com"/>
+				</label>
+				<br/>
+				<label>
+					URL: 
+					<input type="url" name="website" placeholder="www.dani.ca"/>
+					<input type="submit" name="Submit"/>
+				</label>
+				<br/>
+				<!-- This is a button type. Name is the text that will appear in the button -->
+			</fieldset>
+			<fieldset>
+				<label>Search for something<br/>
+					<input type="search" name="search" placeholder="Enter keyword"/>
+					<input type="submit" name="Search"/>
+				</label><br/>
+			</fieldset>
+			<fieldset>
+				<label>
+					Select a colour: 
+					<select>
+						<option value="blue">Blue</option>
+						<option value="red">Red</option>
+						<option value="yellow">Yellow</option>
+						<option value="green">Green</option>
+					</select>
+				</label>
+				<br/>
+				<label>
+					Choose an answer: 
+					<label>
+						<input type="radio" name="answer" value="yes"/>
+						Yes
+					</label>
+					<label>
+						<input type="radio" name="answer" value="no"/>
+						No
+					</label>
+				</label><br/>
+				<label>
+					Approve?
+					<input type="checkbox" name="approval" />
+				</label><br/>
+				<label>Comments:</label><br/>
+				<label>
+					<textarea rows="4" cols="50" id="comments" placeholder="Comments?"></textarea>
+				</label>
+			</fieldset>
+		</form>
+	</body>
+</html>
